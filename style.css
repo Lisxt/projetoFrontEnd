@@ -1,0 +1,45 @@
+.section {
+    display: none; /* Oculta todas as seções por padrão */
+}
+.card {
+    width: 40rem; /* Largura do card */
+    min-height: 20rem; /* Aumenta a altura mínima do card */
+    margin: 20px; /* Espaçamento entre os cards */
+    border: 1px solid #000000; /* Borda leve */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(196, 67, 225, 0.49); /* Sombra suave */
+    transition: transform 0.2s; /* Transição suave ao passar o mouse */
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o card ao passar o mouse */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Bordas arredondadas na parte superior */
+    border-top-right-radius: 10px;
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.card-body-Alice,
+.card-body-julia {
+    text-align: center; /* Centraliza o texto dentro do card */
+    background-color: #b757f2;
+    width: 100%;
+}
+
+.card-title {
+    color: #ffffff; /* Cor roxa para o título */
+    font-size: 2rem; /* Tamanho da fonte do título */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text {
+    color: #000000; /* Cor do texto padrão */
+    font-size: 1.5rem; /* Tamanho da fonte do título */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
